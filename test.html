@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<meta name="author" content="(Shingo Nagai)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="file:///Users/snagai/Documents/reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="file:///Users/snagai/Documents/reveal.js/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'file:///Users/snagai/Documents/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h2 class="author">Shingo Nagai</h2><p class="date">Created: 2021-11-29 Mon 13:43</p>
+</section>
+<section id="table-of-contents"><div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#/slide-org17db444">1. Memo</a>
+<ul>
+<li><a href="#/slide-org159697b">1.1. test1</a></li>
+<li><a href="#/slide-orgbb3417b">1.2. test2</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<section>
+<section id="slide-org17db444">
+<h2 id="org17db444"><span class="section-number-2">1</span> Memo</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+</section>
+<section id="slide-org159697b">
+<h3 id="org159697b"><span class="section-number-3">1.1</span> test1</h3>
+<p>
+This is test.
+</p>
+
+</section>
+<section id="slide-orgbb3417b">
+<h3 id="orgbb3417b"><span class="section-number-3">1.2</span> test2</h3>
+<p>
+This is also test.
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="file:///Users/snagai/Documents/reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'file:///Users/snagai/Documents/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'file:///Users/snagai/Documents/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:///Users/snagai/Documents/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:///Users/snagai/Documents/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'file:///Users/snagai/Documents/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
